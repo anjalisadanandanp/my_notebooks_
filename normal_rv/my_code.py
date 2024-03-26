@@ -26,7 +26,7 @@ def plot_normal(mean, std):
     plt.grid(True)
 
     #show the plot
-    plt.savefig('normal_'+ str(mean) + "_" + str(std) +'_.png')
+    plt.savefig('normal_rv/normal_'+ str(mean) + "_" + str(std) +'_.png')
 
 #call the function
 plot_normal(60, 20)

@@ -1,0 +1,224 @@
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
+Value of the maximum log-likelihood: 29217.7 
+
+Step length parameters:
+----------------------
+         state 1    state 2
+mean 0.004031308 0.03987463
+sd   0.003406922 0.03783480
+
+Turning angle parameters:
+------------------------
+                 state 1     state 2
+mean          -3.0232166 -0.03664252
+concentration  0.3336926  1.52022903
+
+Regression coeffs for the transition probabilities:
+--------------------------------------------------
+             1 -> 2    2 -> 1
+intercept -1.976005 -2.302021
+
+Transition probability matrix:
+-----------------------------
+           [,1]      [,2]
+[1,] 0.87825467 0.1217453
+[2,] 0.09095575 0.9090442
+
+Initial distribution:
+--------------------
+[1] 0.4276224 0.5723776
