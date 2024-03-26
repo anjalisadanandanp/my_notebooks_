@@ -1,0 +1,117 @@
+{
+    "os": "Linux-4.15.0-213-generic-x86_64-with-glibc2.17",
+    "python": "3.8.16",
+    "heartbeatAt": "2024-03-26T07:08:23.988155",
+    "startedAt": "2024-03-26T07:08:23.124032",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/mnt/data1/my_codes/my_notebooks/Deep learning/Transformer_models/codes/tutorial_02/model_training.py",
+    "codePath": "Deep learning/Transformer_models/codes/tutorial_02/model_training.py",
+    "git": {
+        "remote": "https://github.com/anjalisadanandanp/my_notebooks_.git",
+        "commit": "25899ff6b3fe935c7d534cc4707e8a9a30c22124"
+    },
+    "email": "anjalip1@iisc.ac.in",
+    "root": "/mnt/data1/my_codes/my_notebooks",
+    "host": "quest-pampa",
+    "username": "anjalip",
+    "executable": "/home/anjalip/anaconda3/envs/universe/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 0.8000000000000002,
+        "min": 800.0,
+        "max": 5000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.799,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.799,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5000.0
+        }
+    ],
+    "disk": {
+        "total": 320.656795501709,
+        "used": 300.0342445373535
+    },
+    "memory": {
+        "total": 62.776912689208984
+    }
+}

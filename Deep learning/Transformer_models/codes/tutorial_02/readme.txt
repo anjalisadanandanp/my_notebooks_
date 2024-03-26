@@ -1,0 +1,1 @@
+A simple transformer model that creates a copy of the sequence passed!

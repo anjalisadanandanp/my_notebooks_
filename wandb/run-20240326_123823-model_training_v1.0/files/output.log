@@ -1,0 +1,1711 @@
+Batch ID: 0
+Batch ID: 0 Loss: 14714.0546875 Learning rate: 4.4194173824159224e-08
+Source(UNknown) : tensor([[ 8,  3,  2,  9,  9,  7,  9,  6,  1, 10]])
+Decoded(UNknown): tensor([[8, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 1
+Batch ID: 2
+/mnt/data1/my_codes/my_notebooks/Deep learning/Transformer_models/codes/tutorial_02/model_training.py:192: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  src = Variable(torch.LongTensor([batch.src[-1].numpy()]))      # one example from the training set
+Batch ID: 3
+Batch ID: 4
+Batch ID: 5
+Batch ID: 6
+Batch ID: 7
+Batch ID: 8
+Batch ID: 9
+Batch ID: 10
+Batch ID: 10 Loss: 14482.80078125 Learning rate: 4.861359120657515e-07
+Source(UNknown) : tensor([[ 4, 10,  9,  2,  1,  4,  4,  6,  3,  8]])
+Decoded(UNknown): tensor([[4, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 11
+Batch ID: 12
+Batch ID: 13
+Batch ID: 14
+Batch ID: 15
+Batch ID: 16
+Batch ID: 17
+Batch ID: 18
+Batch ID: 19
+Batch ID: 20
+Batch ID: 20 Loss: 14566.384765625 Learning rate: 9.280776503073436e-07
+Source(UNknown) : tensor([[ 6,  5,  1,  2,  1,  8,  7, 10,  6,  4]])
+Decoded(UNknown): tensor([[6, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 21
+Batch ID: 22
+Batch ID: 23
+Batch ID: 24
+Batch ID: 25
+Batch ID: 26
+Batch ID: 27
+Batch ID: 28
+Batch ID: 29
+Batch ID: 30
+Batch ID: 30 Loss: 14477.21484375 Learning rate: 1.3700193885489358e-06
+Source(UNknown) : tensor([[2, 1, 9, 8, 3, 6, 5, 2, 1, 7]])
+Decoded(UNknown): tensor([[2, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 31
+Batch ID: 32
+Batch ID: 33
+Batch ID: 34
+Batch ID: 35
+Batch ID: 36
+Batch ID: 37
+Batch ID: 38
+Batch ID: 39
+Batch ID: 40
+Batch ID: 40 Loss: 14443.103515625 Learning rate: 1.811961126790528e-06
+Source(UNknown) : tensor([[ 5,  9,  4,  9, 10,  7,  4,  9,  8,  9]])
+Decoded(UNknown): tensor([[5, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 41
+Batch ID: 42
+Batch ID: 43
+Batch ID: 44
+Batch ID: 45
+Batch ID: 46
+Batch ID: 47
+Batch ID: 48
+Batch ID: 49
+Batch ID: 50
+Batch ID: 50 Loss: 14309.193359375 Learning rate: 2.25390286503212e-06
+Source(UNknown) : tensor([[ 5,  8,  8,  2,  9,  1,  7,  2,  4, 10]])
+Decoded(UNknown): tensor([[5, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 51
+Batch ID: 52
+Batch ID: 53
+Batch ID: 54
+Batch ID: 55
+Batch ID: 56
+Batch ID: 57
+Batch ID: 58
+Batch ID: 59
+Batch ID: 60
+Batch ID: 60 Loss: 14040.48046875 Learning rate: 2.6958446032737126e-06
+Source(UNknown) : tensor([[8, 6, 2, 2, 4, 8, 4, 8, 3, 3]])
+Decoded(UNknown): tensor([[8, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 61
+Batch ID: 62
+Batch ID: 63
+Batch ID: 64
+Batch ID: 65
+Batch ID: 66
+Batch ID: 67
+Batch ID: 68
+Batch ID: 69
+Batch ID: 70
+Batch ID: 70 Loss: 13797.583984375 Learning rate: 3.137786341515305e-06
+Source(UNknown) : tensor([[ 3,  8,  3,  5, 10, 10,  4,  7,  3, 10]])
+Decoded(UNknown): tensor([[3, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 71
+Batch ID: 72
+Batch ID: 73
+Batch ID: 74
+Batch ID: 75
+Batch ID: 76
+Batch ID: 77
+Batch ID: 78
+Batch ID: 79
+Batch ID: 80
+Batch ID: 80 Loss: 13412.296875 Learning rate: 3.579728079756897e-06
+Source(UNknown) : tensor([[ 9,  7,  9,  6,  2,  4, 10,  3, 10,  9]])
+Decoded(UNknown): tensor([[9, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 81
+Batch ID: 82
+Batch ID: 83
+Batch ID: 84
+Batch ID: 85
+Batch ID: 86
+Batch ID: 87
+Batch ID: 88
+Batch ID: 89
+Batch ID: 90
+Batch ID: 90 Loss: 13082.751953125 Learning rate: 4.0216698179984884e-06
+Source(UNknown) : tensor([[ 9,  7,  2,  7, 10,  1,  6,  4,  1,  2]])
+Decoded(UNknown): tensor([[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 91
+Batch ID: 92
+Batch ID: 93
+Batch ID: 94
+Batch ID: 95
+Batch ID: 96
+Batch ID: 97
+Batch ID: 98
+Batch ID: 99
+Batch ID: 100
+Batch ID: 100 Loss: 12772.962890625 Learning rate: 4.463611556240081e-06
+Source(UNknown) : tensor([[ 4,  1,  9,  6,  6,  7,  6, 10,  9,  5]])
+Decoded(UNknown): tensor([[4, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 101
+Batch ID: 102
+Batch ID: 103
+Batch ID: 104
+Batch ID: 105
+Batch ID: 106
+Batch ID: 107
+Batch ID: 108
+Batch ID: 109
+Batch ID: 110
+Batch ID: 110 Loss: 12418.287109375 Learning rate: 4.905553294481673e-06
+Source(UNknown) : tensor([[9, 4, 3, 4, 6, 2, 7, 9, 4, 3]])
+Decoded(UNknown): tensor([[9, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 111
+Batch ID: 112
+Batch ID: 113
+Batch ID: 114
+Batch ID: 115
+Batch ID: 116
+Batch ID: 117
+Batch ID: 118
+Batch ID: 119
+Batch ID: 120
+Batch ID: 120 Loss: 12174.09375 Learning rate: 5.347495032723266e-06
+Source(UNknown) : tensor([[9, 8, 4, 8, 9, 3, 9, 2, 8, 9]])
+Decoded(UNknown): tensor([[ 9, 10,  2,  2,  2,  2,  2,  2,  2,  2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 121
+Batch ID: 122
+Batch ID: 123
+Batch ID: 124
+Batch ID: 125
+Batch ID: 126
+Batch ID: 127
+Batch ID: 128
+Batch ID: 129
+Batch ID: 130
+Batch ID: 130 Loss: 11898.302734375 Learning rate: 5.789436770964858e-06
+Source(UNknown) : tensor([[ 3,  2,  5, 10,  6,  3,  3, 10,  7,  4]])
+Decoded(UNknown): tensor([[ 3, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2, 10, 10, 10, 10, 10, 10]])
+Batch ID: 131
+Batch ID: 132
+Batch ID: 133
+Batch ID: 134
+Batch ID: 135
+Batch ID: 136
+Batch ID: 137
+Batch ID: 138
+Batch ID: 139
+Batch ID: 140
+Batch ID: 140 Loss: 11674.9921875 Learning rate: 6.23137850920645e-06
+Source(UNknown) : tensor([[ 1,  3,  6,  2,  2,  5, 10,  4,  9,  9]])
+Decoded(UNknown): tensor([[1, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2, 10, 10, 10, 10, 10, 10]])
+Batch ID: 141
+Batch ID: 142
+Batch ID: 143
+Batch ID: 144
+Batch ID: 145
+Batch ID: 146
+Batch ID: 147
+Batch ID: 148
+Batch ID: 149
+Batch ID: 150
+Batch ID: 150 Loss: 11480.95703125 Learning rate: 6.673320247448042e-06
+Source(UNknown) : tensor([[ 3,  7,  5, 10,  3,  5,  1,  9,  5,  3]])
+Decoded(UNknown): tensor([[3, 6, 6, 6, 6, 6, 6, 6, 6, 6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  2,  2,  2,  2,  2,  2,  2,  2,  2]])
+Batch ID: 151
+Batch ID: 152
+Batch ID: 153
+Batch ID: 154
+Batch ID: 155
+Batch ID: 156
+Batch ID: 157
+Batch ID: 158
+Batch ID: 159
+Batch ID: 160
+Batch ID: 160 Loss: 11520.80078125 Learning rate: 7.115261985689635e-06
+Source(UNknown) : tensor([[3, 3, 4, 2, 1, 7, 4, 9, 8, 2]])
+Decoded(UNknown): tensor([[3, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  3,  3,  3,  3,  3,  8,  3,  3,  3]])
+Batch ID: 161
+Batch ID: 162
+Batch ID: 163
+Batch ID: 164
+Batch ID: 165
+Batch ID: 166
+Batch ID: 167
+Batch ID: 168
+Batch ID: 169
+Batch ID: 170
+Batch ID: 170 Loss: 11261.42578125 Learning rate: 7.557203723931227e-06
+Source(UNknown) : tensor([[10,  2,  7, 10,  9, 10,  3,  3,  7,  3]])
+Decoded(UNknown): tensor([[10, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  3,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 171
+Batch ID: 172
+Batch ID: 173
+Batch ID: 174
+Batch ID: 175
+Batch ID: 176
+Batch ID: 177
+Batch ID: 178
+Batch ID: 179
+Batch ID: 180
+Batch ID: 180 Loss: 11193.7265625 Learning rate: 7.999145462172819e-06
+Source(UNknown) : tensor([[5, 4, 6, 8, 7, 4, 5, 7, 9, 6]])
+Decoded(UNknown): tensor([[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 181
+Batch ID: 182
+Batch ID: 183
+Batch ID: 184
+Batch ID: 185
+Batch ID: 186
+Batch ID: 187
+Batch ID: 188
+Batch ID: 189
+Batch ID: 190
+Batch ID: 190 Loss: 11017.796875 Learning rate: 8.441087200414411e-06
+Source(UNknown) : tensor([[10,  4,  4,  4,  8,  3,  2,  7,  7,  5]])
+Decoded(UNknown): tensor([[10,  3,  3,  3,  3,  3,  3,  3,  3,  3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 191
+Batch ID: 192
+Batch ID: 193
+Batch ID: 194
+Batch ID: 195
+Batch ID: 196
+Batch ID: 197
+Batch ID: 198
+Batch ID: 199
+Batch ID: 200
+Batch ID: 200 Loss: 10951.26171875 Learning rate: 8.816820198232479e-06
+Source(UNknown) : tensor([[8, 3, 1, 5, 3, 2, 3, 8, 8, 7]])
+Decoded(UNknown): tensor([[8, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 201
+Batch ID: 202
+Batch ID: 203
+Batch ID: 204
+Batch ID: 205
+Batch ID: 206
+Batch ID: 207
+Batch ID: 208
+Batch ID: 209
+Batch ID: 210
+Batch ID: 210 Loss: 10816.400390625 Learning rate: 8.605354885268929e-06
+Source(UNknown) : tensor([[ 3,  4,  9, 10, 10, 10,  3,  7,  2,  7]])
+Decoded(UNknown): tensor([[ 3, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 211
+Batch ID: 212
+Batch ID: 213
+Batch ID: 214
+Batch ID: 215
+Batch ID: 216
+Batch ID: 217
+Batch ID: 218
+Batch ID: 219
+Batch ID: 220
+Batch ID: 220 Loss: 10835.23828125 Learning rate: 8.408409924953905e-06
+Source(UNknown) : tensor([[ 9,  1,  9,  3,  6,  1, 10,  4,  1,  9]])
+Decoded(UNknown): tensor([[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 221
+Batch ID: 222
+Batch ID: 223
+Batch ID: 224
+Batch ID: 225
+Batch ID: 226
+Batch ID: 227
+Batch ID: 228
+Batch ID: 229
+Batch ID: 230
+Batch ID: 230 Loss: 10772.7578125 Learning rate: 8.224396186997112e-06
+Source(UNknown) : tensor([[10,  3,  3,  7,  2,  1,  5,  7,  7,  3]])
+Decoded(UNknown): tensor([[10,  3,  3,  3,  3,  3,  3,  3,  3,  3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 231
+Batch ID: 232
+Batch ID: 233
+Batch ID: 234
+Batch ID: 235
+Batch ID: 236
+Batch ID: 237
+Batch ID: 238
+Batch ID: 239
+Batch ID: 240
+Batch ID: 240 Loss: 10767.7197265625 Learning rate: 8.051957830010386e-06
+Source(UNknown) : tensor([[8, 6, 4, 5, 3, 4, 9, 7, 2, 5]])
+Decoded(UNknown): tensor([[8, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 241
+Batch ID: 242
+Batch ID: 243
+Batch ID: 244
+Batch ID: 245
+Batch ID: 246
+Batch ID: 247
+Batch ID: 248
+Batch ID: 249
+Batch ID: 250
+Batch ID: 250 Loss: 10676.28125 Learning rate: 7.889930038722539e-06
+Source(UNknown) : tensor([[ 5,  4,  5,  1,  2, 10,  9,  6,  8,  5]])
+Decoded(UNknown): tensor([[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 251
+Batch ID: 252
+Batch ID: 253
+Batch ID: 254
+Batch ID: 255
+Batch ID: 256
+Batch ID: 257
+Batch ID: 258
+Batch ID: 259
+Batch ID: 260
+Batch ID: 260 Loss: 10554.0517578125 Learning rate: 7.737305757377161e-06
+Source(UNknown) : tensor([[ 8,  3, 10,  5,  6,  2,  9,  9,  4,  6]])
+Decoded(UNknown): tensor([[8, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 261
+Batch ID: 262
+Batch ID: 263
+Batch ID: 264
+Batch ID: 265
+Batch ID: 266
+Batch ID: 267
+Batch ID: 268
+Batch ID: 269
+Batch ID: 270
+Batch ID: 270 Loss: 10535.40625 Learning rate: 7.5932092403848385e-06
+Source(UNknown) : tensor([[2, 1, 5, 6, 4, 8, 4, 9, 2, 9]])
+Decoded(UNknown): tensor([[2, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 271
+Batch ID: 272
+Batch ID: 273
+Batch ID: 274
+Batch ID: 275
+Batch ID: 276
+Batch ID: 277
+Batch ID: 278
+Batch ID: 279
+Batch ID: 280
+Batch ID: 280 Loss: 10478.365234375 Learning rate: 7.45687482839867e-06
+Source(UNknown) : tensor([[1, 2, 1, 8, 2, 8, 9, 3, 4, 8]])
+Decoded(UNknown): tensor([[1, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 281
+Batch ID: 282
+Batch ID: 283
+Batch ID: 284
+Batch ID: 285
+Batch ID: 286
+Batch ID: 287
+Batch ID: 288
+Batch ID: 289
+Batch ID: 290
+Batch ID: 290 Loss: 10456.09765625 Learning rate: 7.327629772006864e-06
+Source(UNknown) : tensor([[ 1,  8, 10,  3, 10,  5,  4,  8,  6,  5]])
+Decoded(UNknown): tensor([[1, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 291
+Batch ID: 292
+Batch ID: 293
+Batch ID: 294
+Batch ID: 295
+Batch ID: 296
+Batch ID: 297
+Batch ID: 298
+Batch ID: 299
+Batch ID: 300
+Batch ID: 300 Loss: 10460.134765625 Learning rate: 7.2048802213029375e-06
+Source(UNknown) : tensor([[ 2,  5,  7,  7,  4,  2,  6,  7, 10,  9]])
+Decoded(UNknown): tensor([[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 301
+Batch ID: 302
+Batch ID: 303
+Batch ID: 304
+Batch ID: 305
+Batch ID: 306
+Batch ID: 307
+Batch ID: 308
+Batch ID: 309
+Batch ID: 310
+Batch ID: 310 Loss: 10444.748046875 Learning rate: 7.088099714046784e-06
+Source(UNknown) : tensor([[8, 4, 3, 2, 9, 6, 9, 8, 8, 6]])
+Decoded(UNknown): tensor([[8, 6, 6, 6, 6, 6, 6, 6, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 311
+Batch ID: 312
+Batch ID: 313
+Batch ID: 314
+Batch ID: 315
+Batch ID: 316
+Batch ID: 317
+Batch ID: 318
+Batch ID: 319
+Batch ID: 320
+Batch ID: 320 Loss: 10379.634765625 Learning rate: 6.9768196523243446e-06
+Source(UNknown) : tensor([[ 8,  9,  9,  8,  5,  8, 10,  7,  1,  4]])
+Decoded(UNknown): tensor([[8, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 321
+Batch ID: 322
+Batch ID: 323
+Batch ID: 324
+Batch ID: 325
+Batch ID: 326
+Batch ID: 327
+Batch ID: 328
+Batch ID: 329
+Batch ID: 330
+Batch ID: 330 Loss: 10297.701171875 Learning rate: 6.870621374116409e-06
+Source(UNknown) : tensor([[ 6,  7,  3,  7, 10,  5,  5,  9,  4,  8]])
+Decoded(UNknown): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 331
+Batch ID: 332
+Batch ID: 333
+Batch ID: 334
+Batch ID: 335
+Batch ID: 336
+Batch ID: 337
+Batch ID: 338
+Batch ID: 339
+Batch ID: 340
+Batch ID: 340 Loss: 10263.4326171875 Learning rate: 6.769129513423529e-06
+Source(UNknown) : tensor([[6, 2, 8, 2, 5, 5, 2, 9, 6, 2]])
+Decoded(UNknown): tensor([[6, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 341
+Batch ID: 342
+Batch ID: 343
+Batch ID: 344
+Batch ID: 345
+Batch ID: 346
+Batch ID: 347
+Batch ID: 348
+Batch ID: 349
+Batch ID: 350
+Batch ID: 350 Loss: 10337.015625 Learning rate: 6.672006408545297e-06
+Source(UNknown) : tensor([[8, 7, 3, 7, 6, 2, 9, 4, 8, 7]])
+Decoded(UNknown): tensor([[8, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 351
+Batch ID: 352
+Batch ID: 353
+Batch ID: 354
+Batch ID: 355
+Batch ID: 356
+Batch ID: 357
+Batch ID: 358
+Batch ID: 359
+Batch ID: 360
+Batch ID: 360 Loss: 10186.0078125 Learning rate: 6.578947368421052e-06
+Source(UNknown) : tensor([[10,  2,  3,  9,  2,  8,  3,  9,  1,  9]])
+Decoded(UNknown): tensor([[10,  9,  9,  9,  9,  9,  9,  9,  9,  9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 361
+Batch ID: 362
+Batch ID: 363
+Batch ID: 364
+Batch ID: 365
+Batch ID: 366
+Batch ID: 367
+Batch ID: 368
+Batch ID: 369
+Batch ID: 370
+Batch ID: 370 Loss: 10153.1015625 Learning rate: 6.489676645639564e-06
+Source(UNknown) : tensor([[ 1,  7,  3,  6, 10, 10, 10,  1,  9,  7]])
+Decoded(UNknown): tensor([[ 1, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 371
+Batch ID: 372
+Batch ID: 373
+Batch ID: 374
+Batch ID: 375
+Batch ID: 376
+Batch ID: 377
+Batch ID: 378
+Batch ID: 379
+Batch ID: 380
+Batch ID: 380 Loss: 10162.779296875 Learning rate: 6.403943994732e-06
+Source(UNknown) : tensor([[8, 5, 3, 5, 7, 9, 7, 3, 3, 9]])
+Decoded(UNknown): tensor([[8, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 381
+Batch ID: 382
+Batch ID: 383
+Batch ID: 384
+Batch ID: 385
+Batch ID: 386
+Batch ID: 387
+Batch ID: 388
+Batch ID: 389
+Batch ID: 390
+Batch ID: 390 Loss: 10152.4072265625 Learning rate: 6.32152171780217e-06
+Source(UNknown) : tensor([[ 9,  1,  2,  4,  3,  4,  6,  5, 10,  2]])
+Decoded(UNknown): tensor([[9, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 391
+Batch ID: 392
+Batch ID: 393
+Batch ID: 394
+Batch ID: 395
+Batch ID: 396
+Batch ID: 397
+Batch ID: 398
+Batch ID: 399
+Batch ID: 400
+Batch ID: 400 Loss: 10099.5380859375 Learning rate: 6.242202117986529e-06
+Source(UNknown) : tensor([[ 7,  7,  1, 10,  8,  2, 10,  9,  1,  5]])
+Decoded(UNknown): tensor([[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 401
+Batch ID: 402
+Batch ID: 403
+Batch ID: 404
+Batch ID: 405
+Batch ID: 406
+Batch ID: 407
+Batch ID: 408
+Batch ID: 409
+Batch ID: 410
+Batch ID: 410 Loss: 10135.595703125 Learning rate: 6.165795295837377e-06
+Source(UNknown) : tensor([[ 7,  9,  5,  6,  2,  6,  8,  4,  6, 10]])
+Decoded(UNknown): tensor([[7, 6, 6, 6, 6, 6, 6, 6, 6, 6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 411
+Batch ID: 412
+Batch ID: 413
+Batch ID: 414
+Batch ID: 415
+Batch ID: 416
+Batch ID: 417
+Batch ID: 418
+Batch ID: 419
+Batch ID: 420
+Batch ID: 420 Loss: 10046.88671875 Learning rate: 6.0921272353572415e-06
+Source(UNknown) : tensor([[ 8,  1, 10,  1,  3,  5,  8,  6,  7,  2]])
+Decoded(UNknown): tensor([[8, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 421
+Batch ID: 422
+Batch ID: 423
+Batch ID: 424
+Batch ID: 425
+Batch ID: 426
+Batch ID: 427
+Batch ID: 428
+Batch ID: 429
+Batch ID: 430
+Batch ID: 430 Loss: 10025.541015625 Learning rate: 6.0210381357386004e-06
+Source(UNknown) : tensor([[ 2,  4, 10,  5,  3,  9,  1,  5,  3,  3]])
+Decoded(UNknown): tensor([[2, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 431
+Batch ID: 432
+Batch ID: 433
+Batch ID: 434
+Batch ID: 435
+Batch ID: 436
+Batch ID: 437
+Batch ID: 438
+Batch ID: 439
+Batch ID: 440
+Batch ID: 440 Loss: 10056.34765625 Learning rate: 5.9523809523809525e-06
+Source(UNknown) : tensor([[ 3,  3, 10,  2,  2,  9,  6, 10,  3,  9]])
+Decoded(UNknown): tensor([[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 441
+Batch ID: 442
+Batch ID: 443
+Batch ID: 444
+Batch ID: 445
+Batch ID: 446
+Batch ID: 447
+Batch ID: 448
+Batch ID: 449
+Batch ID: 450
+Batch ID: 450 Loss: 10015.52734375 Learning rate: 5.886020116850139e-06
+Source(UNknown) : tensor([[10,  9,  5,  3,  8,  1,  5,  5,  6,  5]])
+Decoded(UNknown): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 451
+Batch ID: 452
+Batch ID: 453
+Batch ID: 454
+Batch ID: 455
+Batch ID: 456
+Batch ID: 457
+Batch ID: 458
+Batch ID: 459
+Batch ID: 460
+Batch ID: 460 Loss: 9940.9794921875 Learning rate: 5.821830410407779e-06
+Source(UNknown) : tensor([[ 9,  5,  5,  5,  2,  8,  7,  4,  6, 10]])
+Decoded(UNknown): tensor([[9, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 461
+Batch ID: 462
+Batch ID: 463
+Batch ID: 464
+Batch ID: 465
+Batch ID: 466
+Batch ID: 467
+Batch ID: 468
+Batch ID: 469
+Batch ID: 470
+Batch ID: 470 Loss: 9987.2265625 Learning rate: 5.759695969801143e-06
+Source(UNknown) : tensor([[ 2,  6,  6,  8,  3,  8,  7,  7,  6, 10]])
+Decoded(UNknown): tensor([[2, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  5,  5,  5,  5,  5]])
+Batch ID: 471
+Batch ID: 472
+Batch ID: 473
+Batch ID: 474
+Batch ID: 475
+Batch ID: 476
+Batch ID: 477
+Batch ID: 478
+Batch ID: 479
+Batch ID: 480
+Batch ID: 480 Loss: 9946.5478515625 Learning rate: 5.699509407344416e-06
+Source(UNknown) : tensor([[ 2,  7, 10,  2,  2,  7,  6,  2,  7,  6]])
+Decoded(UNknown): tensor([[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 481
+Batch ID: 482
+Batch ID: 483
+Batch ID: 484
+Batch ID: 485
+Batch ID: 486
+Batch ID: 487
+Batch ID: 488
+Batch ID: 489
+Batch ID: 490
+Batch ID: 490 Loss: 9945.1435546875 Learning rate: 5.641171030081552e-06
+Source(UNknown) : tensor([[3, 9, 3, 1, 5, 5, 2, 1, 1, 3]])
+Decoded(UNknown): tensor([[3, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 491
+Batch ID: 492
+Batch ID: 493
+Batch ID: 494
+Batch ID: 495
+Batch ID: 496
+Batch ID: 497
+Batch ID: 498
+Batch ID: 499
+Batch ID: 500
+Batch ID: 500 Loss: 9856.27734375 Learning rate: 5.584588145109629e-06
+Source(UNknown) : tensor([[10,  6, 10,  4,  6,  8, 10,  6,  9,  3]])
+Decoded(UNknown): tensor([[10,  6,  6,  6,  6,  6,  6,  6,  6,  6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 501
+Batch ID: 502
+Batch ID: 503
+Batch ID: 504
+Batch ID: 505
+Batch ID: 506
+Batch ID: 507
+Batch ID: 508
+Batch ID: 509
+Batch ID: 510
+Batch ID: 510 Loss: 9859.193359375 Learning rate: 5.52967444004761e-06
+Source(UNknown) : tensor([[ 4,  3,  9,  1,  9,  3,  6, 10,  4,  2]])
+Decoded(UNknown): tensor([[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 511
+Batch ID: 512
+Batch ID: 513
+Batch ID: 514
+Batch ID: 515
+Batch ID: 516
+Batch ID: 517
+Batch ID: 518
+Batch ID: 519
+Batch ID: 520
+Batch ID: 520 Loss: 9854.326171875 Learning rate: 5.476349429229044e-06
+Source(UNknown) : tensor([[8, 9, 7, 9, 5, 8, 2, 7, 7, 3]])
+Decoded(UNknown): tensor([[8, 7, 7, 7, 7, 7, 7, 7, 7, 7]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 521
+Batch ID: 522
+Batch ID: 523
+Batch ID: 524
+Batch ID: 525
+Batch ID: 526
+Batch ID: 527
+Batch ID: 528
+Batch ID: 529
+Batch ID: 530
+Batch ID: 530 Loss: 9924.7666015625 Learning rate: 5.424537957534328e-06
+Source(UNknown) : tensor([[9, 9, 6, 5, 8, 8, 2, 9, 2, 5]])
+Decoded(UNknown): tensor([[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 531
+Batch ID: 532
+Batch ID: 533
+Batch ID: 534
+Batch ID: 535
+Batch ID: 536
+Batch ID: 537
+Batch ID: 538
+Batch ID: 539
+Batch ID: 540
+Batch ID: 540 Loss: 9828.033203125 Learning rate: 5.374169754904347e-06
+Source(UNknown) : tensor([[ 3, 10,  3,  2, 10, 10,  7,  9,  9,  1]])
+Decoded(UNknown): tensor([[ 3, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 541
+Batch ID: 542
+Batch ID: 543
+Batch ID: 544
+Batch ID: 545
+Batch ID: 546
+Batch ID: 547
+Batch ID: 548
+Batch ID: 549
+Batch ID: 550
+Batch ID: 550 Loss: 9808.451171875 Learning rate: 5.3251790355288126e-06
+Source(UNknown) : tensor([[10, 10,  2,  3,  1,  5,  2,  1,  8,  5]])
+Decoded(UNknown): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 551
+Batch ID: 552
+Batch ID: 553
+Batch ID: 554
+Batch ID: 555
+Batch ID: 556
+Batch ID: 557
+Batch ID: 558
+Batch ID: 559
+Batch ID: 560
+Batch ID: 560 Loss: 9771.966796875 Learning rate: 5.277504136509364e-06
+Source(UNknown) : tensor([[ 2,  2,  6,  7,  6, 10, 10,  5,  3,  5]])
+Decoded(UNknown): tensor([[2, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 561
+Batch ID: 562
+Batch ID: 563
+Batch ID: 564
+Batch ID: 565
+Batch ID: 566
+Batch ID: 567
+Batch ID: 568
+Batch ID: 569
+Batch ID: 570
+Batch ID: 570 Loss: 9820.46875 Learning rate: 5.23108719148359e-06
+Source(UNknown) : tensor([[1, 4, 8, 4, 7, 6, 1, 7, 1, 6]])
+Decoded(UNknown): tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 571
+Batch ID: 572
+Batch ID: 573
+Batch ID: 574
+Batch ID: 575
+Batch ID: 576
+Batch ID: 577
+Batch ID: 578
+Batch ID: 579
+Batch ID: 580
+Batch ID: 580 Loss: 9776.748046875 Learning rate: 5.18587383528139e-06
+Source(UNknown) : tensor([[ 6, 10,  3,  8,  1, 10,  2,  7,  9,  2]])
+Decoded(UNknown): tensor([[6, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 581
+Batch ID: 582
+Batch ID: 583
+Batch ID: 584
+Batch ID: 585
+Batch ID: 586
+Batch ID: 587
+Batch ID: 588
+Batch ID: 589
+Batch ID: 590
+Batch ID: 590 Loss: 9689.7890625 Learning rate: 5.141812936185795e-06
+Source(UNknown) : tensor([[1, 2, 8, 9, 7, 7, 7, 6, 8, 6]])
+Decoded(UNknown): tensor([[1, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 591
+Batch ID: 592
+Batch ID: 593
+Batch ID: 594
+Batch ID: 595
+Batch ID: 596
+Batch ID: 597
+Batch ID: 598
+Batch ID: 599
+Batch ID: 600
+Batch ID: 600 Loss: 9772.3232421875 Learning rate: 5.098856352800026e-06
+Source(UNknown) : tensor([[ 7,  6, 10,  1,  1,  1,  4,  5, 10, 10]])
+Decoded(UNknown): tensor([[ 7, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 601
+Batch ID: 602
+Batch ID: 603
+Batch ID: 604
+Batch ID: 605
+Batch ID: 606
+Batch ID: 607
+Batch ID: 608
+Batch ID: 609
+Batch ID: 610
+Batch ID: 610 Loss: 9778.1640625 Learning rate: 5.056958712892093e-06
+Source(UNknown) : tensor([[10,  3,  8,  1,  6, 10,  9,  6,  4,  5]])
+Decoded(UNknown): tensor([[10,  6,  6,  6,  6,  6,  6,  6,  6,  6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 611
+Batch ID: 612
+Batch ID: 613
+Batch ID: 614
+Batch ID: 615
+Batch ID: 616
+Batch ID: 617
+Batch ID: 618
+Batch ID: 619
+Batch ID: 620
+Batch ID: 620 Loss: 9730.91796875 Learning rate: 5.01607721190705e-06
+Source(UNknown) : tensor([[ 6,  7,  9,  5, 10,  9,  8, 10,  3,  1]])
+Decoded(UNknown): tensor([[6, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 621
+Batch ID: 622
+Batch ID: 623
+Batch ID: 624
+Batch ID: 625
+Batch ID: 626
+Batch ID: 627
+Batch ID: 628
+Batch ID: 629
+Batch ID: 630
+Batch ID: 630 Loss: 9664.6552734375 Learning rate: 4.9761714291127065e-06
+Source(UNknown) : tensor([[ 6,  2,  6,  4, 10,  4,  3,  2,  5, 10]])
+Decoded(UNknown): tensor([[6, 6, 6, 6, 6, 6, 6, 6, 6, 6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 631
+Batch ID: 632
+Batch ID: 633
+Batch ID: 634
+Batch ID: 635
+Batch ID: 636
+Batch ID: 637
+Batch ID: 638
+Batch ID: 639
+Batch ID: 640
+Batch ID: 640 Loss: 9683.2431640625 Learning rate: 4.937203159583527e-06
+Source(UNknown) : tensor([[2, 4, 5, 3, 6, 9, 4, 8, 9, 3]])
+Decoded(UNknown): tensor([[2, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 641
+Batch ID: 642
+Batch ID: 643
+Batch ID: 644
+Batch ID: 645
+Batch ID: 646
+Batch ID: 647
+Batch ID: 648
+Batch ID: 649
+Batch ID: 650
+Batch ID: 650 Loss: 9690.3818359375 Learning rate: 4.8991362604351285e-06
+Source(UNknown) : tensor([[5, 9, 5, 5, 1, 8, 6, 3, 2, 2]])
+Decoded(UNknown): tensor([[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 651
+Batch ID: 652
+Batch ID: 653
+Batch ID: 654
+Batch ID: 655
+Batch ID: 656
+Batch ID: 657
+Batch ID: 658
+Batch ID: 659
+Batch ID: 660
+Batch ID: 660 Loss: 9665.171875 Learning rate: 4.8619365099025875e-06
+Source(UNknown) : tensor([[8, 3, 5, 3, 8, 1, 9, 4, 5, 2]])
+Decoded(UNknown): tensor([[8, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 661
+Batch ID: 662
+Batch ID: 663
+Batch ID: 664
+Batch ID: 665
+Batch ID: 666
+Batch ID: 667
+Batch ID: 668
+Batch ID: 669
+Batch ID: 670
+Batch ID: 670 Loss: 9671.140625 Learning rate: 4.825571478013643e-06
+Source(UNknown) : tensor([[ 3,  4,  1,  1,  3,  5,  7,  9,  2, 10]])
+Decoded(UNknown): tensor([[3, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 671
+Batch ID: 672
+Batch ID: 673
+Batch ID: 674
+Batch ID: 675
+Batch ID: 676
+Batch ID: 677
+Batch ID: 678
+Batch ID: 679
+Batch ID: 680
+Batch ID: 680 Loss: 9632.4287109375 Learning rate: 4.790010407745921e-06
+Source(UNknown) : tensor([[ 1,  5, 10,  8,  9,  6,  5,  4,  9,  7]])
+Decoded(UNknown): tensor([[1, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 681
+Batch ID: 682
+Batch ID: 683
+Batch ID: 684
+Batch ID: 685
+Batch ID: 686
+Batch ID: 687
+Batch ID: 688
+Batch ID: 689
+Batch ID: 690
+Batch ID: 690 Loss: 9638.59765625 Learning rate: 4.755224105678334e-06
+Source(UNknown) : tensor([[ 8,  9,  8,  7,  7,  2,  2,  7,  3, 10]])
+Decoded(UNknown): tensor([[8, 7, 7, 7, 7, 7, 7, 7, 7, 7]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 691
+Batch ID: 692
+Batch ID: 693
+Batch ID: 694
+Batch ID: 695
+Batch ID: 696
+Batch ID: 697
+Batch ID: 698
+Batch ID: 699
+Batch ID: 700
+Batch ID: 700 Loss: 9607.9150390625 Learning rate: 4.721184841253112e-06
+Source(UNknown) : tensor([[ 2,  7,  4,  8,  3,  2, 10,  6, 10,  3]])
+Decoded(UNknown): tensor([[2, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 701
+Batch ID: 702
+Batch ID: 703
+Batch ID: 704
+Batch ID: 705
+Batch ID: 706
+Batch ID: 707
+Batch ID: 708
+Batch ID: 709
+Batch ID: 710
+Batch ID: 710 Loss: 9635.765625 Learning rate: 4.687866253858433e-06
+Source(UNknown) : tensor([[ 2,  5,  6,  9,  3,  6,  3,  5,  2, 10]])
+Decoded(UNknown): tensor([[2, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 711
+Batch ID: 712
+Batch ID: 713
+Batch ID: 714
+Batch ID: 715
+Batch ID: 716
+Batch ID: 717
+Batch ID: 718
+Batch ID: 719
+Batch ID: 720
+Batch ID: 720 Loss: 9607.63671875 Learning rate: 4.655243267024116e-06
+Source(UNknown) : tensor([[ 1,  5,  1,  6,  2,  2,  9,  8,  8, 10]])
+Decoded(UNknown): tensor([[1, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 721
+Batch ID: 722
+Batch ID: 723
+Batch ID: 724
+Batch ID: 725
+Batch ID: 726
+Batch ID: 727
+Batch ID: 728
+Batch ID: 729
+Batch ID: 730
+Batch ID: 730 Loss: 9652.791015625 Learning rate: 4.623292009095682e-06
+Source(UNknown) : tensor([[9, 3, 6, 2, 9, 2, 3, 6, 3, 5]])
+Decoded(UNknown): tensor([[9, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 731
+Batch ID: 732
+Batch ID: 733
+Batch ID: 734
+Batch ID: 735
+Batch ID: 736
+Batch ID: 737
+Batch ID: 738
+Batch ID: 739
+Batch ID: 740
+Batch ID: 740 Loss: 9591.9375 Learning rate: 4.591989739816532e-06
+Source(UNknown) : tensor([[8, 9, 5, 9, 9, 4, 6, 2, 9, 1]])
+Decoded(UNknown): tensor([[8, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 741
+Batch ID: 742
+Batch ID: 743
+Batch ID: 744
+Batch ID: 745
+Batch ID: 746
+Batch ID: 747
+Batch ID: 748
+Batch ID: 749
+Batch ID: 750
+Batch ID: 750 Loss: 9577.0419921875 Learning rate: 4.561314782305168e-06
+Source(UNknown) : tensor([[8, 5, 6, 2, 7, 1, 6, 4, 2, 5]])
+Decoded(UNknown): tensor([[8, 2, 2, 2, 2, 2, 2, 2, 2, 2]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 751
+Batch ID: 752
+Batch ID: 753
+Batch ID: 754
+Batch ID: 755
+Batch ID: 756
+Batch ID: 757
+Batch ID: 758
+Batch ID: 759
+Batch ID: 760
+Batch ID: 760 Loss: 9565.1416015625 Learning rate: 4.5312464599650865e-06
+Source(UNknown) : tensor([[ 9,  9,  1,  5, 10,  5, 10,  7,  5, 10]])
+Decoded(UNknown): tensor([[ 9, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 761
+Batch ID: 762
+Batch ID: 763
+Batch ID: 764
+Batch ID: 765
+Batch ID: 766
+Batch ID: 767
+Batch ID: 768
+Batch ID: 769
+Batch ID: 770
+Batch ID: 770 Loss: 9538.732421875 Learning rate: 4.501765037910123e-06
+Source(UNknown) : tensor([[ 3, 10,  5,  9,  3,  9,  5,  3,  7,  4]])
+Decoded(UNknown): tensor([[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 771
+Batch ID: 772
+Batch ID: 773
+Batch ID: 774
+Batch ID: 775
+Batch ID: 776
+Batch ID: 777
+Batch ID: 778
+Batch ID: 779
+Batch ID: 780
+Batch ID: 780 Loss: 9550.64453125 Learning rate: 4.472851668528208e-06
+Source(UNknown) : tensor([[8, 8, 9, 4, 6, 8, 1, 6, 4, 5]])
+Decoded(UNknown): tensor([[8, 6, 6, 6, 6, 6, 6, 6, 6, 6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 781
+Batch ID: 782
+Batch ID: 783
+Batch ID: 784
+Batch ID: 785
+Batch ID: 786
+Batch ID: 787
+Batch ID: 788
+Batch ID: 789
+Batch ID: 790
+Batch ID: 790 Loss: 9501.564453125 Learning rate: 4.4444883408423624e-06
+Source(UNknown) : tensor([[ 4, 10, 10,  5,  2, 10,  1,  1,  9,  8]])
+Decoded(UNknown): tensor([[ 4, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 791
+Batch ID: 792
+Batch ID: 793
+Batch ID: 794
+Batch ID: 795
+Batch ID: 796
+Batch ID: 797
+Batch ID: 798
+Batch ID: 799
+Batch ID: 800
+Batch ID: 800 Loss: 9563.51953125 Learning rate: 4.416657833359833e-06
+Source(UNknown) : tensor([[5, 8, 4, 8, 9, 9, 3, 5, 9, 4]])
+Decoded(UNknown): tensor([[5, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 801
+Batch ID: 802
+Batch ID: 803
+Batch ID: 804
+Batch ID: 805
+Batch ID: 806
+Batch ID: 807
+Batch ID: 808
+Batch ID: 809
+Batch ID: 810
+Batch ID: 810 Loss: 9558.4365234375 Learning rate: 4.389343670128897e-06
+Source(UNknown) : tensor([[ 1,  6,  6, 10,  1,  7, 10,  9,  2,  7]])
+Decoded(UNknown): tensor([[1, 7, 7, 7, 7, 7, 7, 7, 7, 7]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 811
+Batch ID: 812
+Batch ID: 813
+Batch ID: 814
+Batch ID: 815
+Batch ID: 816
+Batch ID: 817
+Batch ID: 818
+Batch ID: 819
+Batch ID: 820
+Batch ID: 820 Loss: 9560.4462890625 Learning rate: 4.3625300797486e-06
+Source(UNknown) : tensor([[4, 3, 6, 8, 9, 5, 9, 7, 7, 8]])
+Decoded(UNknown): tensor([[4, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 821
+Batch ID: 822
+Batch ID: 823
+Batch ID: 824
+Batch ID: 825
+Batch ID: 826
+Batch ID: 827
+Batch ID: 828
+Batch ID: 829
+Batch ID: 830
+Batch ID: 830 Loss: 9476.55078125 Learning rate: 4.336201957099752e-06
+Source(UNknown) : tensor([[8, 3, 8, 2, 8, 6, 9, 3, 7, 7]])
+Decoded(UNknown): tensor([[8, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 831
+Batch ID: 832
+Batch ID: 833
+Batch ID: 834
+Batch ID: 835
+Batch ID: 836
+Batch ID: 837
+Batch ID: 838
+Batch ID: 839
+Batch ID: 840
+Batch ID: 840 Loss: 9523.3076171875 Learning rate: 4.310344827586207e-06
+Source(UNknown) : tensor([[7, 6, 8, 4, 4, 8, 9, 2, 8, 8]])
+Decoded(UNknown): tensor([[7, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 841
+Batch ID: 842
+Batch ID: 843
+Batch ID: 844
+Batch ID: 845
+Batch ID: 846
+Batch ID: 847
+Batch ID: 848
+Batch ID: 849
+Batch ID: 850
+Batch ID: 850 Loss: 9498.884765625 Learning rate: 4.284944813694131e-06
+Source(UNknown) : tensor([[ 2,  9,  7,  4, 10,  4,  1,  3, 10,  8]])
+Decoded(UNknown): tensor([[ 2, 10, 10, 10, 10, 10, 10, 10, 10, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 851
+Batch ID: 852
+Batch ID: 853
+Batch ID: 854
+Batch ID: 855
+Batch ID: 856
+Batch ID: 857
+Batch ID: 858
+Batch ID: 859
+Batch ID: 860
+Batch ID: 860 Loss: 9525.998046875 Learning rate: 4.259988603693731e-06
+Source(UNknown) : tensor([[ 4,  5,  3, 10,  4,  1,  8, 10,  1,  7]])
+Decoded(UNknown): tensor([[ 4, 10, 10, 10, 10, 10,  1,  1,  1,  1]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 861
+Batch ID: 862
+Batch ID: 863
+Batch ID: 864
+Batch ID: 865
+Batch ID: 866
+Batch ID: 867
+Batch ID: 868
+Batch ID: 869
+Batch ID: 870
+Batch ID: 870 Loss: 9472.23828125 Learning rate: 4.2354634223231075e-06
+Source(UNknown) : tensor([[5, 8, 9, 3, 1, 2, 1, 5, 2, 4]])
+Decoded(UNknown): tensor([[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 871
+Batch ID: 872
+Batch ID: 873
+Batch ID: 874
+Batch ID: 875
+Batch ID: 876
+Batch ID: 877
+Batch ID: 878
+Batch ID: 879
+Batch ID: 880
+Batch ID: 880 Loss: 9543.6005859375 Learning rate: 4.211357003307557e-06
+Source(UNknown) : tensor([[ 4,  8, 10,  6,  7,  3, 10,  9,  8,  8]])
+Decoded(UNknown): tensor([[4, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 881
+Batch ID: 882
+Batch ID: 883
+Batch ID: 884
+Batch ID: 885
+Batch ID: 886
+Batch ID: 887
+Batch ID: 888
+Batch ID: 889
+Batch ID: 890
+Batch ID: 890 Loss: 9541.609375 Learning rate: 4.187657563580051e-06
+Source(UNknown) : tensor([[ 6,  6,  1,  5,  1,  8, 10,  2,  5,  8]])
+Decoded(UNknown): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 891
+Batch ID: 892
+Batch ID: 893
+Batch ID: 894
+Batch ID: 895
+Batch ID: 896
+Batch ID: 897
+Batch ID: 898
+Batch ID: 899
+Batch ID: 900
+Batch ID: 900 Loss: 9498.443359375 Learning rate: 4.1643537790798104e-06
+Source(UNknown) : tensor([[ 8,  9,  9,  7,  5, 10,  4,  8,  1,  7]])
+Decoded(UNknown): tensor([[8, 7, 7, 7, 7, 7, 7, 7, 7, 7]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 901
+Batch ID: 902
+Batch ID: 903
+Batch ID: 904
+Batch ID: 905
+Batch ID: 906
+Batch ID: 907
+Batch ID: 908
+Batch ID: 909
+Batch ID: 910
+Batch ID: 910 Loss: 9454.6376953125 Learning rate: 4.141434762016073e-06
+Source(UNknown) : tensor([[7, 9, 7, 9, 5, 5, 5, 3, 3, 3]])
+Decoded(UNknown): tensor([[7, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 911
+Batch ID: 912
+Batch ID: 913
+Batch ID: 914
+Batch ID: 915
+Batch ID: 916
+Batch ID: 917
+Batch ID: 918
+Batch ID: 919
+Batch ID: 920
+Batch ID: 920 Loss: 9371.109375 Learning rate: 4.118890039493355e-06
+Source(UNknown) : tensor([[ 6, 10,  7, 10,  8,  3,  9,  3,  2,  5]])
+Decoded(UNknown): tensor([[6, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 921
+Batch ID: 922
+Batch ID: 923
+Batch ID: 924
+Batch ID: 925
+Batch ID: 926
+Batch ID: 927
+Batch ID: 928
+Batch ID: 929
+Batch ID: 930
+Batch ID: 930 Loss: 9419.357421875 Learning rate: 4.0967095334028885e-06
+Source(UNknown) : tensor([[ 1,  3,  5,  6,  6,  7,  4,  5, 10,  4]])
+Decoded(UNknown): tensor([[1, 6, 6, 6, 6, 6, 6, 6, 6, 6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Batch ID: 931
+Batch ID: 932
+Batch ID: 933
+Batch ID: 934
+Batch ID: 935
+Batch ID: 936
+Batch ID: 937
+Batch ID: 938
+Batch ID: 939
+Batch ID: 940
+Batch ID: 940 Loss: 9371.6953125 Learning rate: 4.074883541492553e-06
+Source(UNknown) : tensor([[ 3, 10,  3,  7,  4,  9,  2,  2,  3,  5]])
+Decoded(UNknown): tensor([[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 941
+Batch ID: 942
+Batch ID: 943
+Batch ID: 944
+Batch ID: 945
+Batch ID: 946
+Batch ID: 947
+Batch ID: 948
+Batch ID: 949
+Batch ID: 950
+Batch ID: 950 Loss: 9433.876953125 Learning rate: 4.053402719534509e-06
+Source(UNknown) : tensor([[ 6,  5,  8, 10,  7,  3,  4,  4,  1,  8]])
+Decoded(UNknown): tensor([[6, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 951
+Batch ID: 952
+Batch ID: 953
+Batch ID: 954
+Batch ID: 955
+Batch ID: 956
+Batch ID: 957
+Batch ID: 958
+Batch ID: 959
+Batch ID: 960
+Batch ID: 960 Loss: 9431.416015625 Learning rate: 4.032258064516129e-06
+Source(UNknown) : tensor([[ 2,  8,  5,  9,  8,  3,  5,  6, 10,  6]])
+Decoded(UNknown): tensor([[2, 6, 6, 6, 6, 6, 6, 6, 6, 6]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 961
+Batch ID: 962
+Batch ID: 963
+Batch ID: 964
+Batch ID: 965
+Batch ID: 966
+Batch ID: 967
+Batch ID: 968
+Batch ID: 969
+Batch ID: 970
+Batch ID: 970 Loss: 9408.07421875 Learning rate: 4.0114408987854996e-06
+Source(UNknown) : tensor([[ 1,  1,  3,  4,  5,  1,  9, 10,  4,  5]])
+Decoded(UNknown): tensor([[1, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 971
+Batch ID: 972
+Batch ID: 973
+Batch ID: 974
+Batch ID: 975
+Batch ID: 976
+Batch ID: 977
+Batch ID: 978
+Batch ID: 979
+Batch ID: 980
+Batch ID: 980 Loss: 9441.224609375 Learning rate: 3.990942855088131e-06
+Source(UNknown) : tensor([[3, 7, 8, 9, 9, 6, 2, 7, 9, 2]])
+Decoded(UNknown): tensor([[3, 9, 9, 9, 9, 9, 9, 9, 9, 9]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  8,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 981
+Batch ID: 982
+Batch ID: 983
+Batch ID: 984
+Batch ID: 985
+Batch ID: 986
+Batch ID: 987
+Batch ID: 988
+Batch ID: 989
+Batch ID: 990
+Batch ID: 990 Loss: 9387.80078125 Learning rate: 3.970755862436224e-06
+Source(UNknown) : tensor([[10,  1,  8,  8,  5,  3,  6,  7,  1,  1]])
+Decoded(UNknown): tensor([[10,  8,  8,  8,  8,  8,  8,  8,  8,  8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 991
+Batch ID: 992
+Batch ID: 993
+Batch ID: 994
+Batch ID: 995
+Batch ID: 996
+Batch ID: 997
+Batch ID: 998
+Batch ID: 999
+Batch ID: 1000
+Batch ID: 1000 Loss: 9308.6513671875 Learning rate: 3.950872132756338e-06
+Source(UNknown) : tensor([[ 6,  8, 10,  7,  4,  3,  7, 10,  7,  8]])
+Decoded(UNknown): tensor([[6, 7, 7, 7, 7, 7, 7, 7, 7, 7]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 1001
+Batch ID: 1002
+Batch ID: 1003
+Batch ID: 1004
+Batch ID: 1005
+Batch ID: 1006
+Batch ID: 1007
+Batch ID: 1008
+Batch ID: 1009
+Batch ID: 1010
+Batch ID: 1010 Loss: 9353.7412109375 Learning rate: 3.931284148265244e-06
+Source(UNknown) : tensor([[8, 7, 2, 8, 5, 7, 8, 3, 2, 9]])
+Decoded(UNknown): tensor([[8, 8, 8, 8, 8, 8, 8, 8, 8, 8]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Batch ID: 1011
+Batch ID: 1012
+Batch ID: 1013
+Batch ID: 1014
+Batch ID: 1015
+Batch ID: 1016
+Batch ID: 1017
+Batch ID: 1018
+Batch ID: 1019
+Batch ID: 1021
+Batch ID: 1022
+Batch ID: 1023
+Batch ID: 1021
+Decoded(UNknown): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Decoded(UNknown): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Decoded(UNknown): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Batch ID: 1049n): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Batch ID: 1056n): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Batch ID: 1063n): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Batch ID: 1063n): tensor([[6, 5, 5, 5, 5, 5, 5, 5, 5, 5]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Decoded(known): tensor([[10,  5,  5,  5,  5,  5,  5,  5,  5,  5]])
+Source(UNknown) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Source(UNknown) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Source(UNknown) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Batch ID: 1098) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Batch ID: 1105) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Batch ID: 1112) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Batch ID: 1112) : tensor([[ 9,  3,  9,  4,  2,  2,  2,  8,  7, 10]])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1130: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1136: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1141: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1149: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1154: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1154: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1167: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1173: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1179: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1179: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1188: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1194: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1200: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1206: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1206: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1218: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1223: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1229: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1235: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1240: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1246: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1246: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1258: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1264: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1264: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1275: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1279: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1286: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1286: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1298: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1304: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1310: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1316: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1316: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1328: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1334: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1340: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1343: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1349: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1354: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1360: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1365: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1365: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1376: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1376: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1387: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1393: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1399: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1405: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1405: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1416: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1421: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1429: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1434: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1438: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1438: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1448: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1454: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1460: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1464: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1470: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1476: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1476: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1487: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1493: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1499: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1504: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1504: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1516: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1516: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1527: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1530: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1535: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1540: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1545: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1545: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1556: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1556: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1566: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1566: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1577: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1577: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1586: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1586: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1597: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1597: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1607: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1613: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1618: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1623: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1628: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1634: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1640: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1646: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1646: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1658: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1664: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1670: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1675: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1679: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1683: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1689: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1693: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1698: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1703: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1707: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1713: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1718: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1723: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1729: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1735: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1735: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1748: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1754: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1760: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1766: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1770: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1774: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1774: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1787: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1793: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1798: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1804: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1809: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1816: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1816: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1827: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1827: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1836: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1836: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1848: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1854: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1860: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1866: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1866: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1878: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1884: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1890: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1896: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1909: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1915: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1915: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1927: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1927: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1936: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1936: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1948: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1954: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1954: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1967: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Source(known) : tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1978: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1983: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1989: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1994: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])
+Batch ID: 1994: tensor([[10,  9,  8,  7,  6,  5,  4,  3,  2,  1]])])

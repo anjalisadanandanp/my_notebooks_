@@ -1,0 +1,317 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Linear-1                  [-1, 128]             640
+              ReLU-2                  [-1, 128]               0
+            Linear-3                  [-1, 128]          16,512
+              ReLU-4                  [-1, 128]               0
+            Linear-5                    [-1, 2]             258
+================================================================
+Total params: 17,410
+Trainable params: 17,410
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.00
+Params size (MB): 0.07
+Estimated Total Size (MB): 0.07
+----------------------------------------------------------------
+None
+
+ Number of parameters:  17410 
+
+
+ Number of layers:  6 
+
+Game Play: 1     Action loss:  0.007327226921916008 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  40.89 
+
+Average length of game on replay with reward to go:  60  is:  57.18 
+
+Average length of game on replay with reward to go:  80  is:  65.61 
+
+Average length of game on replay with reward to go:  100  is:  65.59 
+
+Game Play: 2     Action loss:  0.004573274869471788 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  58.13 
+
+Average length of game on replay with reward to go:  80  is:  70.12 
+
+Average length of game on replay with reward to go:  100  is:  72.18 
+
+Game Play: 3     Action loss:  0.004514484200626612 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  59.56 
+
+Average length of game on replay with reward to go:  80  is:  70.1 
+
+Average length of game on replay with reward to go:  100  is:  80.87 
+
+Game Play: 4     Action loss:  0.019288115203380585 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  59.27 
+
+Average length of game on replay with reward to go:  80  is:  67.69 
+
+Average length of game on replay with reward to go:  100  is:  72.91 
+
+Game Play: 5     Action loss:  0.012665057554841042 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  40.97 
+
+Average length of game on replay with reward to go:  60  is:  55.95 
+
+Average length of game on replay with reward to go:  80  is:  65.19 
+
+Average length of game on replay with reward to go:  100  is:  66.46 
+
+Game Play: 6     Action loss:  0.0037833035457879305 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  60.08 
+
+Average length of game on replay with reward to go:  80  is:  75.05 
+
+Average length of game on replay with reward to go:  100  is:  81.75 
+
+Game Play: 7     Action loss:  0.07748712599277496 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  57.91 
+
+Average length of game on replay with reward to go:  80  is:  65.46 
+
+Average length of game on replay with reward to go:  100  is:  73.03 
+
+Game Play: 8     Action loss:  0.004961610306054354 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  60.05 
+
+Average length of game on replay with reward to go:  80  is:  72.68 
+
+Average length of game on replay with reward to go:  100  is:  78.75 
+
+Game Play: 9     Action loss:  0.0024880878627300262 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  60.97 
+
+Average length of game on replay with reward to go:  80  is:  78.96 
+
+Average length of game on replay with reward to go:  100  is:  91.65 
+
+Game Play: 10     Action loss:  0.004570182878524065 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  80.48 
+
+Average length of game on replay with reward to go:  100  is:  97.71 
+
+Game Play: 11     Action loss:  0.0024638886097818613 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  60.93 
+
+Average length of game on replay with reward to go:  80  is:  80.69 
+
+Average length of game on replay with reward to go:  100  is:  95.85 
+
+Game Play: 12     Action loss:  0.0029727572109550238 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  80.86 
+
+Average length of game on replay with reward to go:  100  is:  97.84 
+
+Game Play: 13     Action loss:  0.0031904643401503563 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  100.3 
+
+Game Play: 14     Action loss:  0.003444891655817628 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 15     Action loss:  0.0031354995444417 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 16     Action loss:  0.0049245948903262615 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 17     Action loss:  0.011321495287120342 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 18     Action loss:  0.3667873442173004 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 19     Action loss:  0.0035618050023913383 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 20     Action loss:  0.0022012030240148306 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 21     Action loss:  0.0038527350407093763 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 22     Action loss:  0.004916275851428509 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 23     Action loss:  0.0028865309432148933 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 24     Action loss:  0.006711765192449093 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
+Average length of game on replay with reward to go:  40  is:  41.0 
+
+Average length of game on replay with reward to go:  60  is:  61.0 
+
+Average length of game on replay with reward to go:  80  is:  81.0 
+
+Average length of game on replay with reward to go:  100  is:  101.0 
+
+Game Play: 25     Action loss:  0.003306424943730235 
+
+Average length of game on replay with reward to go:  20  is:  21.0 
+
