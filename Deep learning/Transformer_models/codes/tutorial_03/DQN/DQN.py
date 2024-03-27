@@ -25,6 +25,7 @@ class DQN(nn.Module):
 
         self.relu_1 = nn.ReLU()
         self.relu_2 = nn.ReLU()
+        
         #self.softmax = nn.Softmax(dim=1)
 
     def forward(self, x):
@@ -223,13 +224,13 @@ for episode in range(600):
         state = next_state
 
 # save the model
-torch.save(Learning_model.policy_net.state_dict(), "codes/tutorials/05_DQN/policy_net.pth")
-torch.save(Learning_model.target_net.state_dict(), "codes/tutorials/05_DQN/target_net.pth")
+torch.save(Learning_model.policy_net.state_dict(), "Deep learning/Transformer_models/codes/tutorial_03/DQN/policy_net.pth")
+torch.save(Learning_model.target_net.state_dict(), "Deep learning/Transformer_models/codes/tutorial_03/DQN/target_net.pth")
 
 
 # load the model
 policy_network = DQN(4, 2)
-policy_network.load_state_dict(torch.load("codes/tutorials/05_DQN/policy_net.pth"))
+policy_network.load_state_dict(torch.load("Deep learning/Transformer_models/codes/tutorial_03/DQN/policy_net.pth"))
 
 # test the trained model
 env = gym.make('CartPole-v1', render_mode="rgb_array")
