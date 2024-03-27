@@ -1,4 +1,4 @@
-import gymnasium as gym
+import gym
 from gym.wrappers.record_video import RecordVideo
 import torch
 import torch.nn as nn
@@ -7,10 +7,10 @@ from torchsummary import summary
 # https://gymnasium.farama.org/environments/classic_control/cart_pole/
 
 env = gym.make('CartPole-v1', render_mode="rgb_array")
-env = RecordVideo(env, "./gym-results" , episode_trigger = lambda episode_number: True)
+env = RecordVideo(env, "Deep learning/Transformer_models/codes/tutorial_03/DQN/untrained-cartpole" , episode_trigger = lambda episode_number: True)
 
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
+# import os
+# os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 print("\n Action Space:", env.action_space, "\n")
 print("\n Observation Space:", env.observation_space, "\n")
@@ -21,7 +21,7 @@ for episode in range(10):
 
     for i in range(100):
         env.step(env.action_space.sample())
-        env.render()
+        # env.render()
 
 env.close()
 
@@ -75,4 +75,7 @@ while not done:
     action = policy_network(torch.tensor(state)).argmax().item()
     next_state, reward, done, terminal, info = env.step(action)
     state = next_state
+    
+    if terminal:
+        break
 
