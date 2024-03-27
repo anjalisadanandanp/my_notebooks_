@@ -58,7 +58,8 @@ def greedy_decode(model, src, src_mask, max_len, start_symbol):
 
 
 model.eval()
-src = Variable(torch.LongTensor([[1,2,3,4,5,6,7,8,9,10]]) )
+# src = Variable(torch.LongTensor([[1,2,3,4,5,6,7,8,9,10]]))
+src = Variable(torch.LongTensor([[1,5,7,4,5,3,7,8,1,2]]) )
 src_mask = (src != 0).unsqueeze(-2).unsqueeze(-3)
 print(greedy_decode(model, src, src_mask, max_len=10, start_symbol=1))
 
